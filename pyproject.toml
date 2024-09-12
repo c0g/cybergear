@@ -4,4 +4,6 @@ version = "0.1.0"
 description = "Interact with Cybergear motors"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "python-can>=4.4.2",
+]
