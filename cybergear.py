@@ -166,7 +166,7 @@ class CyberGearMotor:
     def set_velocity(self, velocity):
         return self._set_parameter(ParameterIndex.SpdRef, velocity)
 
-    def current(self, current):
+    def set_current(self, current):
         return self._set_parameter(ParameterIndex.IqRef, current)
 
     def set_max_current(self, current):
